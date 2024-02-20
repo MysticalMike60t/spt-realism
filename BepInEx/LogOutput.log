@@ -1,0 +1,674 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - EscapeFromTarkov (2/17/2024 8:22:06 AM)
+[Info   :   BepInEx] Running under Unity v0.13.5.2653
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [aki_PrePatch 1.0.0.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [PunisherBossModPreloader 0.6.9.0]
+[Info   :   BepInEx] 3 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [Aki.PrePatch.AkiBotsPrePatcher]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [PunisherBossPreloader.WildSpawnTypePatch]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 46 plugins to load
+[Info   :   BepInEx] Loading [Graphics 1.5.3]
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [Borkel's Realistic NVGs 1.4.5]
+[Info   :ModulePatch] Enabled patch NightVisionAwakePatch
+[Info   :ModulePatch] Enabled patch NightVisionApplySettingsPatch
+[Info   :ModulePatch] Enabled patch NightVisionSetMaskPatch
+[Info   :ModulePatch] Enabled patch ThermalVisionSetMaskPatch
+[Info   :ModulePatch] Enabled patch SprintPatch
+[Info   :   BepInEx] Loading [CactusPie.ContainerQuickLoot 1.4.1]
+[Info   :   BepInEx] Loading [CactusPie.FastHealing 1.0.0]
+[Info   :   BepInEx] Loading [CactusPie.FastSearch 1.1.0]
+[Info   :   BepInEx] Loading [CactusPie.ItemCountInName 1.0.0]
+[Info   :   BepInEx] Loading [CactusPie.RamCleanerInterval 1.0.0]
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.3.4]
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch BotOwnerRunPatch
+[Info   :ModulePatch] Enabled patch EditorPatch
+[Info   :ModulePatch] Enabled patch DoorBlockerPatch
+[Info   :ModulePatch] Enabled patch AICellDataGetCellPatch
+[Info   :ModulePatch] Enabled patch DoorLinkPatch
+[Info   :   BepInEx] Loading [AKI.Core 3.7.6]
+[Info   :  AKI.Core] Loading: Aki.Core
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatch
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch WebSocketPatch
+[Info   :ModulePatch] Enabled patch TransportPrefixPatch
+[Info   :  AKI.Core] Completed: Aki.Core
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 0.3.2.0]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainAddLayerPatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [DanW-QuestingBots 0.3.5]
+[Info   :DanW-QuestingBots] Loading QuestingBots...
+[Info   :DanW-QuestingBots] Loading QuestingBots...getting configuration data...
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/QuestingBots/GetConfig
+[Info   :RequestHandler] Request was successful
+[Info   :DanW-QuestingBots] Loading QuestingBots...enabling patches and controllers...
+[Info   :ModulePatch] Enabled patch CheckSPTVersionPatch
+[Info   :ModulePatch] Enabled patch GameWorldOnDestroyPatch
+[Info   :ModulePatch] Enabled patch OnGameStartedPatch
+[Info   :ModulePatch] Enabled patch BotOwnerBrainActivatePatch
+[Info   :ModulePatch] Enabled patch IsFollowerSuitableForBossPatch
+[Info   :ModulePatch] Enabled patch OnBeenKilledByAggressorPatch
+[Info   :ModulePatch] Enabled patch AirdropLandPatch
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for sleeping: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, BigPipe, BirdEye, SectantWarrior, SectantPriest, Marksman, BossZryachiy, Fl_Zraychiy
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for questing: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, BigPipe, BirdEye, SectantWarrior, SectantPriest
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for following: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, BigPipe, BirdEye, SectantWarrior, SectantPriest, Marksman, BossZryachiy, Fl_Zraychiy
+[Info   :DanW-QuestingBots] Loading QuestingBots...done.
+[Info   :   BepInEx] Loading [Skills Extended 0.3.3]
+[Info   :ModulePatch] Enabled patch EnableSkillsPatch
+[Info   :ModulePatch] Enabled patch SkillPanelNamePatch
+[Info   :ModulePatch] Enabled patch SkillPanelDisablePatch
+[Info   :ModulePatch] Enabled patch SimpleToolTipPatch
+[Info   :ModulePatch] Enabled patch SkillManagerConstructorPatch
+[Info   :ModulePatch] Enabled patch OnScreenChangePatch
+[Info   :ModulePatch] Enabled patch DoMedEffectPatch
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/skillsExtended/GetCustomWeaponsUsec
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/skillsExtended/GetCustomWeaponsBear
+[Info   :RequestHandler] Request was successful
+[Info   :   BepInEx] Loading [dvize.BackdoorBandit 1.7.2]
+[Info   :ModulePatch] Enabled patch NewGamePatch
+[Info   :ModulePatch] Enabled patch ApplyHit
+[Info   :   BepInEx] Loading [dvize.BushNoESP 1.7.2]
+[Info   :   BepInEx] Loading [SAIN 2.1.8]
+[Info   :ModulePatch] Enabled patch UpdateEFTSettingsPatch
+[Info   :ModulePatch] Enabled patch KickPatch
+[Info   :ModulePatch] Enabled patch GetBotController
+[Info   :ModulePatch] Enabled patch GetBotSpawner
+[Info   :ModulePatch] Enabled patch GrenadeThrownActionPatch
+[Info   :ModulePatch] Enabled patch GrenadeExplosionActionPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch TryPlayShootSoundPatch
+[Info   :ModulePatch] Enabled patch HearingSensorPatch
+[Info   :ModulePatch] Enabled patch BetterAudioPatch
+[Info   :ModulePatch] Enabled patch PlayerTalkPatch
+[Info   :ModulePatch] Enabled patch TalkDisablePatch1
+[Info   :ModulePatch] Enabled patch TalkDisablePatch2
+[Info   :ModulePatch] Enabled patch TalkDisablePatch3
+[Info   :ModulePatch] Enabled patch TalkDisablePatch4
+[Info   :ModulePatch] Enabled patch NoAIESPPatch
+[Info   :ModulePatch] Enabled patch VisionSpeedPatch
+[Info   :ModulePatch] Enabled patch VisibleDistancePatch
+[Info   :ModulePatch] Enabled patch CheckFlashlightPatch
+[Info   :ModulePatch] Enabled patch AimTimePatch
+[Info   :ModulePatch] Enabled patch AimOffsetPatch
+[Info   :ModulePatch] Enabled patch RecoilPatch
+[Info   :ModulePatch] Enabled patch LoseRecoilPatch
+[Info   :ModulePatch] Enabled patch EndRecoilPatch
+[Info   :ModulePatch] Enabled patch FullAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch
+[Info   :ModulePatch] Enabled patch AddComponentPatch
+[Info   :   BepInEx] Loading [dvize.Donuts 1.3.5]
+[Info   :ModulePatch] Enabled patch NewGameDonutsPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch MatchEndPlayerDisposePatch
+[Info   :ModulePatch] Enabled patch PatchStandbyTeleport
+[Info   :ModulePatch] Enabled patch BotProfilePreparationHook
+[Warning:dvize.Donuts] Found file at: G:\Modding\Escape From Tarkov SPT\SPT AKI 3.7.6\BepInEx\plugins\dvize.Donuts\ScenarioConfig.json
+[Warning:dvize.Donuts] Found file at: G:\Modding\Escape From Tarkov SPT\SPT AKI 3.7.6\BepInEx\plugins\dvize.Donuts\RandomScenarioConfig.json
+[Warning:dvize.Donuts] Adding scenario: live-like
+[Warning:dvize.Donuts] Adding scenario: live-like-alt
+[Warning:dvize.Donuts] Adding scenario: live-like-alt-2
+[Warning:dvize.Donuts] Adding scenario: live-like-alt-3
+[Warning:dvize.Donuts] Adding scenario: quietraids
+[Warning:dvize.Donuts] Adding scenario: boss-mania
+[Warning:dvize.Donuts] Adding scenario: crazyraids
+[Warning:dvize.Donuts] Adding scenario: impossibleraids
+[Warning:dvize.Donuts] Adding scenario: morescavs
+[Warning:dvize.Donuts] Adding scenario: morepmcs
+[Warning:dvize.Donuts] Adding scenario: all-pmcs
+[Warning:dvize.Donuts] Adding scenario: all-scavs
+[Warning:dvize.Donuts] Adding scenario: no-starting-pmcs
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-live-like
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-live-like-alt
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-live-like-alt-2
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-live-like-late-scavs
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-morescavs
+[Warning:dvize.Donuts] Adding scenario: starting-pmcs-only-quietraids
+[Warning:dvize.Donuts] Adding scenario: split-starting-pmcs
+[Warning:dvize.Donuts] Adding scenario: scav-raids
+[Warning:dvize.Donuts] Adding scenario: scav-raids-starting-pmcs-only
+[Warning:dvize.Donuts] Adding random scenario: Random Live Like
+[Warning:dvize.Donuts] Adding random scenario: Random Starting PMCs Only
+[Warning:dvize.Donuts] Adding random scenario: Whole Lotta Scavs (Random)
+[Warning:dvize.Donuts] Adding random scenario: I Like Pain (Random)
+[Warning:dvize.Donuts] Adding random scenario: Random Quiet Raids
+[Warning:dvize.Donuts] Adding random scenario: Random SCAV Raids
+[Info   :   BepInEx] Loading [Fuck You Beta 1.2.1]
+[Info   :Fuck You Beta] FuckYouBeta is loaded!
+[Info   :   BepInEx] Loading [SPT-UseLooseLoot 1.1.2]
+[Info   :ModulePatch] Enabled patch MakeFoodMedsUsablePatch
+[Info   :SPT-UseLooseLoot] [UseLooseLoot] Loaded.
+[Info   :   BepInEx] Loading [Punisher Voice Adder 0.6.9]
+[Info   :   BepInEx] Loading [Punisher Boss Patch 0.6.9]
+[Info   :   BepInEx] Loading [ArmBandCore 370.0.1]
+[Info   :   BepInEx] Loading [Kaeno-TraderScrolling 1.0.2]
+[Info   :ModulePatch] Enabled patch TraderScrollingPatch
+[Info   :ModulePatch] Enabled patch PlayerCardPatch
+[Info   :   BepInEx] Loading [kmyuhkyuk-EFTReflection 1.1.8]
+[Info   :   BepInEx] Loading [kmyuhkyuk-EFTApi 1.1.8]
+[Info   :   BepInEx] Loading [kmyuhkyuk-EFTConfiguration 1.1.8]
+[Info   :   BepInEx] Loading [kmyuhkyuk-EFTUtils 1.1.8]
+[Info   :   BepInEx] Loading [Modding Stats Helper 1.0]
+[Info   :ModulePatch] Enabled patch ItemShowTooltipPatch
+[Info   :ModulePatch] Enabled patch ShowTooltipPatch
+[Info   :ModulePatch] Enabled patch WeaponUpdatePatch
+[Info   :ModulePatch] Enabled patch DropDownSlotContextPatch
+[Info   :ModulePatch] Enabled patch SlotViewPatch
+[Info   :ModulePatch] Enabled patch ScreenTypePatch
+[Info   :ModulePatch] Enabled patch DropDownSlotContextClosePatch
+[Info   :   BepInEx] Loading [ColorConverterAPI 1.0.0]
+[Info   :ModulePatch] Enabled patch ColorConverterPatch
+[Info   :   BepInEx] Loading [AKI.Custom 3.7.6]
+[Info   :AKI.Custom] Loading: Aki.Custom
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/singleplayer/bundles
+[Info   :RequestHandler] Request was successful
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Info   :ModulePatch] Enabled patch BossSpawnChancePatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidMenuPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Enabled patch SessionIdPatch
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :ModulePatch] Enabled patch IsEnemyPatch
+[Info   :ModulePatch] Enabled patch LocationLootCacheBustingPatch
+[Info   :ModulePatch] Enabled patch CheckAndAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotSelfEnemyPatch
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Enabled patch AirdropPatch
+[Info   :ModulePatch] Enabled patch AirdropFlarePatch
+[Info   :ModulePatch] Enabled patch AddSptBotSettingsPatch
+[Info   :ModulePatch] Enabled patch CustomAiPatch
+[Info   :ModulePatch] Enabled patch ExitWhileLootingPatch
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :ModulePatch] Enabled patch PmcFirstAidPatch
+[Info   :ModulePatch] Enabled patch SettingsLocationPatch
+[Info   :ModulePatch] Enabled patch RagfairFeePatch
+[Info   :ModulePatch] Enabled patch ScavQuestPatch
+[Info   :AKI.Custom] Completed: Aki.Custom
+[Info   :   BepInEx] Loading [AKI.Debugging 3.7.6]
+[Info   :AKI.Debugging] Loading: Aki.Debugging
+[Info   :ModulePatch] Enabled patch EndRaidDebug
+[Info   :AKI.Debugging] Completed: Aki.Debugging
+[Info   :   BepInEx] Loading [AKI.Singleplayer 3.7.6]
+[Info   :AKI.Singleplayer] Loading: Aki.SinglePlayer
+[Info   :ModulePatch] Enabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Enabled patch OfflineSpawnPointPatch
+[Info   :ModulePatch] Enabled patch ExperienceGainPatch
+[Info   :ModulePatch] Enabled patch ScavExperienceGainPatch
+[Info   :ModulePatch] Enabled patch MainMenuControllerPatch
+[Info   :ModulePatch] Enabled patch PlayerPatch
+[Info   :ModulePatch] Enabled patch SelectLocationScreenPatch
+[Info   :ModulePatch] Enabled patch InsuranceScreenPatch
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Enabled patch GetNewBotTemplatesPatch
+[Warning:  HarmonyX] RemoveUsedBotProfilePatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual EFT.Profile GClass511::GetNewProfile(GClass513 data, bool withDelete) instead of virtual EFT.Profile GClass511::GetNewProfile(GClass513 data, bool withDelete).
+[Info   :ModulePatch] Enabled patch RemoveUsedBotProfilePatch
+[Info   :ModulePatch] Enabled patch DogtagPatch
+[Info   :ModulePatch] Enabled patch LoadOfflineRaidScreenPatch
+[Info   :ModulePatch] Enabled patch ScavPrefabLoadPatch
+[Info   :ModulePatch] Enabled patch ScavProfileLoadPatch
+[Info   :ModulePatch] Enabled patch ScavExfilPatch
+[Info   :ModulePatch] Enabled patch ExfilPointManagerPatch
+[Info   :ModulePatch] Enabled patch TinnitusFixPatch
+[Info   :ModulePatch] Enabled patch MaxBotPatch
+[Info   :ModulePatch] Enabled patch SpawnPmcPatch
+[Info   :ModulePatch] Enabled patch PostRaidHealingPricePatch
+[Info   :ModulePatch] Enabled patch EndByTimerPatch
+[Info   :ModulePatch] Enabled patch PostRaidHealScreenPatch
+[Info   :ModulePatch] Enabled patch VoIPTogglerPatch
+[Info   :ModulePatch] Enabled patch MidRaidQuestChangePatch
+[Info   :ModulePatch] Enabled patch HealthControllerPatch
+[Info   :ModulePatch] Enabled patch LighthouseBridgePatch
+[Info   :ModulePatch] Enabled patch LighthouseTransmitterPatch
+[Info   :ModulePatch] Enabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Enabled patch SmokeGrenadeFuseSoundFixPatch
+[Info   :ModulePatch] Enabled patch PlayerToggleSoundFixPatch
+[Info   :ModulePatch] Enabled patch PluginErrorNotifierPatch
+[Info   :ModulePatch] Enabled patch SpawnProcessNegativeValuePatch
+[Info   :ModulePatch] Enabled patch InsuredItemManagerStartPatch
+[Info   :ModulePatch] Enabled patch MapReadyButtonPatch
+[Info   :ModulePatch] Enabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Enabled patch ScavLateStartPatch
+[Info   :AKI.Singleplayer] Completed: Aki.SinglePlayer
+[Info   :   BepInEx] Loading [Terkoiz.FlareEventNotifier 1.0.0]
+[Info   :   BepInEx] Loading [thelpb.quicktime 1.0]
+[Info   :   BepInEx] Loading [TYR_DeClutter 1.1.5]
+[Info   :   BepInEx] Loading [DJs Raid Overhaul 1.5.0]
+[Info   :DJs Raid Overhaul] Loading Raid Overhaul
+[Info   :ModulePatch] Enabled patch OnDeadPatch
+[Info   :ModulePatch] Enabled patch GameWorldPatch
+[Info   :ModulePatch] Enabled patch UIPanelPatch
+[Warning:  HarmonyX] TimerUIPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void EFT.UI.BattleTimer.TimerPanel::SetTimerText(TimeSpan timeSpan) instead of virtual void EFT.UI.BattleTimer.TimerPanel::SetTimerText(TimeSpan timeSpan).
+[Info   :ModulePatch] Enabled patch TimerUIPatch
+[Info   :ModulePatch] Enabled patch WeatherControllerPatch
+[Info   :ModulePatch] Enabled patch GlobalsPatch
+[Info   :ModulePatch] Enabled patch WatchPatch
+[Info   :ModulePatch] Enabled patch HitStaminaPatch
+[Info   :ModulePatch] Enabled patch DeafnessPatch
+[Info   :ModulePatch] Enabled patch GrenadeDeafnessPatch
+[Info   :ModulePatch] Enabled patch EnableEntryPointPatch
+[Info   :ModulePatch] Enabled patch GamePlayerOwnerPatch
+[Info   :ModulePatch] Enabled patch GameWorldDisposePatch
+[Info   :ModulePatch] Enabled patch RandomizeDefaultStatePatch
+[Info   :ModulePatch] Enabled patch EventExfilPatch
+[Info   :   BepInEx] Loading [FOVFix 1.0.0]
+[Info   :ModulePatch] Enabled patch PwaWeaponParamsPatch
+[Info   :ModulePatch] Enabled patch FreeLookPatch
+[Info   :ModulePatch] Enabled patch LerpCameraPatch
+[Info   :ModulePatch] Enabled patch IsAimingPatch
+[Info   :ModulePatch] Enabled patch ChangeAimingModePatch
+[Info   :ModulePatch] Enabled patch SetScopeModePatch
+[Info   :ModulePatch] Enabled patch OperationSetScopeModePatch
+[Info   :ModulePatch] Enabled patch AimingSensitivityPatch
+[Info   :   BepInEx] Loading [LootValue 1.2.3]
+[Info   :ModulePatch] Enabled patch TraderPatch
+[Info   :ModulePatch] Enabled patch ShowTooltipPatch
+[Info   :ModulePatch] Enabled patch GridItemOnPointerEnterPatch
+[Info   :ModulePatch] Enabled patch GridItemOnPointerExitPatch
+[Warning:  HarmonyX] ItemViewOnClickPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void EFT.UI.DragAndDrop.ItemView::OnClick(UnityEngine.EventSystems.PointerEventData+InputButton button, UnityEngine.Vector2 position, bool doubleClick) instead of virtual void EFT.UI.DragAndDrop.ItemView::OnClick(UnityEngine.EventSystems.PointerEventData+InputButton button, UnityEngine.Vector2 position, bool doubleClick).
+[Info   :ModulePatch] Enabled patch ItemViewOnClickPatch
+[Info   :   BepInEx] Loading [BossNotifier 1.1.0]
+[Info   :ModulePatch] Enabled patch BossLocationSpawnPatch
+[Info   :ModulePatch] Enabled patch NewGamePatch
+[Info   :BossNotifier] Plugin BossNotifier is loaded!
+[Info   :   BepInEx] Loading [Deadzone 1.0.0.0]
+[Info   :   BepInEx] Loading [ModdingQOL 1.0.0]
+[Info   :ModulePatch] Enabled patch ItemSpecificationPanelPatch
+[Info   :ModulePatch] Enabled patch CanBeMovedPatch
+[Info   :ModulePatch] Enabled patch CanDetatchPatch
+[Info   :ModulePatch] Enabled patch CanAttachPatch
+[Info   :ModulePatch] Enabled patch ThrowItemPatch
+[Info   :ModulePatch] Enabled patch InteractPatch
+[Info   :ModulePatch] Enabled patch ModdingScreenPatch
+[Info   :ModdingQOL] Plugin ModdingQOL is loaded!
+[Info   :   BepInEx] Loading [RealismMod 0.14.11]
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/RealismMod/GetInfo
+[Info   :RequestHandler] Request was successful
+[Info   :ModulePatch] Enabled patch COIDeltaPatch
+[Info   :ModulePatch] Enabled patch TotalShotgunDispersionPatch
+[Info   :ModulePatch] Enabled patch GetDurabilityLossOnShotPatch
+[Info   :ModulePatch] Enabled patch AutoFireRatePatch
+[Info   :ModulePatch] Enabled patch SingleFireRatePatch
+[Info   :ModulePatch] Enabled patch ErgoDeltaPatch
+[Info   :ModulePatch] Enabled patch ErgoWeightPatch
+[Info   :ModulePatch] Enabled patch method_9Patch
+[Info   :ModulePatch] Enabled patch SyncWithCharacterSkillsPatch
+[Info   :ModulePatch] Enabled patch UpdateWeaponVariablesPatch
+[Info   :ModulePatch] Enabled patch SetAimingSlowdownPatch
+[Info   :ModulePatch] Enabled patch PwaWeaponParamsPatch
+[Info   :ModulePatch] Enabled patch UpdateSwayFactorsPatch
+[Info   :ModulePatch] Enabled patch GetOverweightPatch
+[Info   :ModulePatch] Enabled patch SetOverweightPatch
+[Info   :ModulePatch] Enabled patch BreathProcessPatch
+[Info   :ModulePatch] Enabled patch OnWeaponParametersChangedPatch
+[Info   :ModulePatch] Enabled patch ProcessPatch
+[Info   :ModulePatch] Enabled patch ShootPatch
+[Info   :ModulePatch] Enabled patch SetCurveParametersPatch
+[Info   :ModulePatch] Enabled patch RecoilRotatePatch
+[Info   :ModulePatch] Enabled patch SetAimingPatch
+[Info   :ModulePatch] Enabled patch ToggleAimPatch
+[Info   :ModulePatch] Enabled patch CalibrationLookAt
+[Info   :ModulePatch] Enabled patch CalibrationLookAtScope
+[Info   :ModulePatch] Enabled patch GetTotalMalfunctionChancePatch
+[Info   :ModulePatch] Enabled patch IsKnownMalfTypePatch
+[Info   :ModulePatch] Enabled patch CanStartReloadPatch
+[Info   :ModulePatch] Enabled patch ReloadMagPatch
+[Info   :ModulePatch] Enabled patch QuickReloadMagPatch
+[Info   :ModulePatch] Enabled patch ReloadWithAmmoPatch
+[Info   :ModulePatch] Enabled patch ReloadBarrelsPatch
+[Info   :ModulePatch] Enabled patch ReloadCylinderMagazinePatch
+[Info   :ModulePatch] Enabled patch OnMagInsertedPatch
+[Info   :ModulePatch] Enabled patch SetMagTypeCurrentPatch
+[Info   :ModulePatch] Enabled patch SetMagTypeNewPatch
+[Info   :ModulePatch] Enabled patch SetMagInWeaponPatch
+[Info   :ModulePatch] Enabled patch SetMalfRepairSpeedPatch
+[Info   :ModulePatch] Enabled patch BoltActionReloadPatch
+[Info   :ModulePatch] Enabled patch SetSpeedParametersPatch
+[Info   :ModulePatch] Enabled patch CheckAmmoPatch
+[Info   :ModulePatch] Enabled patch CheckChamberPatch
+[Info   :ModulePatch] Enabled patch RechamberPatch
+[Info   :ModulePatch] Enabled patch SetAnimatorAndProceduralValuesPatch
+[Info   :ModulePatch] Enabled patch OnItemAddedOrRemovedPatch
+[Info   :ModulePatch] Enabled patch SetWeaponLevelPatch
+[Info   :ModulePatch] Enabled patch ModConstructorPatch
+[Info   :ModulePatch] Enabled patch WeaponConstructorPatch
+[Info   :ModulePatch] Enabled patch HRecoilDisplayStringValuePatch
+[Info   :ModulePatch] Enabled patch HRecoilDisplayDeltaPatch
+[Info   :ModulePatch] Enabled patch VRecoilDisplayStringValuePatch
+[Info   :ModulePatch] Enabled patch VRecoilDisplayDeltaPatch
+[Info   :ModulePatch] Enabled patch ModVRecoilStatDisplayPatchFloat
+[Info   :ModulePatch] Enabled patch ModVRecoilStatDisplayPatchString
+[Info   :ModulePatch] Enabled patch ErgoDisplayDeltaPatch
+[Info   :ModulePatch] Enabled patch ErgoDisplayStringValuePatch
+[Info   :ModulePatch] Enabled patch COIDisplayDeltaPatch
+[Info   :ModulePatch] Enabled patch COIDisplayStringValuePatch
+[Info   :ModulePatch] Enabled patch FireRateDisplayStringValuePatch
+[Info   :ModulePatch] Enabled patch GetCachedReadonlyQualitiesPatch
+[Info   :ModulePatch] Enabled patch CenterOfImpactMOAPatch
+[Info   :ModulePatch] Enabled patch ModErgoStatDisplayPatch
+[Info   :ModulePatch] Enabled patch GetAttributeIconPatches
+[Info   :ModulePatch] Enabled patch HeadsetConstructorPatch
+[Info   :ModulePatch] Enabled patch AmmoDuraBurnDisplayPatch
+[Info   :ModulePatch] Enabled patch AmmoMalfChanceDisplayPatch
+[Info   :ModulePatch] Enabled patch MagazineMalfChanceDisplayPatch
+[Info   :ModulePatch] Enabled patch BarrelModClassPatch
+[Info   :ModulePatch] Enabled patch GetTotalCenterOfImpactPatch
+[Info   :ModulePatch] Enabled patch CreateShotPatch
+[Info   :ModulePatch] Enabled patch ApplyArmorDamagePatch
+[Info   :ModulePatch] Enabled patch DamageInfoPatch
+[Info   :ModulePatch] Enabled patch ApplyDamageInfoPatch
+[Info   :ModulePatch] Enabled patch SetPenetrationStatusPatch
+[Info   :ModulePatch] Enabled patch ApplyCorpseImpulsePatch
+[Info   :ModulePatch] Enabled patch ArmorClassDisplayPatch
+[Info   :ModulePatch] Enabled patch ArmorZoneBaseDisplayPatch
+[Info   :ModulePatch] Enabled patch ArmorZoneSringValueDisplayPatch
+[Info   :ModulePatch] Enabled patch IsShotDeflectedByHeavyArmorPatch
+[Info   :ModulePatch] Enabled patch IsPenetratedPatch
+[Info   :ModulePatch] Enabled patch PrismEffectsPatch
+[Info   :ModulePatch] Enabled patch VignettePatch
+[Info   :ModulePatch] Enabled patch UpdatePhonesPatch
+[Info   :ModulePatch] Enabled patch SetCompressorPatch
+[Info   :ModulePatch] Enabled patch RegisterShotPatch
+[Info   :ModulePatch] Enabled patch ExplosionPatch
+[Info   :ModulePatch] Enabled patch GrenadeClassContusionPatch
+[Info   :ModulePatch] Enabled patch CovertMovementVolumePatch
+[Info   :ModulePatch] Enabled patch CovertMovementVolumeBySpeedPatch
+[Info   :ModulePatch] Enabled patch CovertEquipmentVolumePatch
+[Info   :ModulePatch] Enabled patch ArmorComponentPatch
+[Info   :ModulePatch] Enabled patch RigConstructorPatch
+[Info   :ModulePatch] Enabled patch BackpackConstructorPatch
+[Info   :ModulePatch] Enabled patch PlayerInitPatch
+[Info   :ModulePatch] Enabled patch ToggleHoldingBreathPatch
+[Info   :ModulePatch] Enabled patch CalculateSurfacePatch
+[Info   :ModulePatch] Enabled patch CalculateSurfacePatch
+[Info   :ModulePatch] Enabled patch ClampSpeedPatch
+[Info   :ModulePatch] Enabled patch SprintAccelerationPatch
+[Info   :ModulePatch] Enabled patch EnduranceSprintActionPatch
+[Info   :ModulePatch] Enabled patch EnduranceMovementActionPatch
+[Info   :ModulePatch] Enabled patch PlayerLateUpdatePatch
+[Info   :ModulePatch] Enabled patch ApplyComplexRotationPatch
+[Info   :ModulePatch] Enabled patch ApplySimpleRotationPatch
+[Info   :ModulePatch] Enabled patch InitTransformsPatch
+[Info   :ModulePatch] Enabled patch ZeroAdjustmentsPatch
+[Info   :ModulePatch] Enabled patch WeaponOverlappingPatch
+[Info   :ModulePatch] Enabled patch WeaponLengthPatch
+[Info   :ModulePatch] Enabled patch OnWeaponDrawPatch
+[Info   :ModulePatch] Enabled patch UpdateHipInaccuracyPatch
+[Info   :ModulePatch] Enabled patch SetFireModePatch
+[Info   :ModulePatch] Enabled patch WeaponOverlapViewPatch
+[Info   :ModulePatch] Enabled patch CollisionPatch
+[Info   :ModulePatch] Enabled patch OperateStationaryWeaponPatch
+[Info   :ModulePatch] Enabled patch SetTiltPatch
+[Info   :ModulePatch] Enabled patch ApplyItemPatch
+[Info   :ModulePatch] Enabled patch SetQuickSlotPatch
+[Info   :ModulePatch] Enabled patch ProceedPatch
+[Info   :ModulePatch] Enabled patch RemoveEffectPatch
+[Info   :ModulePatch] Enabled patch StamRegenRatePatch
+[Info   :ModulePatch] Enabled patch MedkitConstructorPatch
+[Info   :ModulePatch] Enabled patch HCApplyDamagePatch
+[Info   :ModulePatch] Enabled patch RestoreBodyPartPatch
+[Info   :ModulePatch] Enabled patch FlyingBulletPatch
+[Info   :ModulePatch] Enabled patch BattleUIScreenPatch
+[Info   :   BepInEx] Loading [MoreCheckmarks 1.5.9]
+[Info   :   BepInEx] Loading [DrakiaXYZ-EquipFromWeaponRack 1.0.1]
+[Info   :ModulePatch] Enabled patch EquipItemWindowListPatch
+[Info   :ModulePatch] Enabled patch TagWeaponRackPatch
+[Info   :   BepInEx] Loading [DrakiaXYZ-QuestTracker 1.1.0]
+[Info   :ModulePatch] Enabled patch MainMenuControllerShowScreenPatch
+[Info   :ModulePatch] Enabled patch NewGamePatch
+[Info   :ModulePatch] Enabled patch TasksScreenShowPatch
+[Info   :ModulePatch] Enabled patch TasksScreenClosePatch
+[Info   :ModulePatch] Enabled patch NotesTaskStatusPatch
+[Info   :ModulePatch] Enabled patch TasksScreenStatusComparePatch
+[Info   :ModulePatch] Enabled patch QuestsScreenShowPatch
+[Info   :ModulePatch] Enabled patch QuestsScreenClosePatch
+[Info   :ModulePatch] Enabled patch QuestsListItemUpdateViewPatch
+[Info   :   BepInEx] Loading [DrakiaXYZ-SearchOpenContainers 1.0.2]
+[Info   :DrakiaXYZ-SearchOpenContainers] [SearchOpenContainers] Loading...
+[Info   :ModulePatch] Enabled patch ContainerMenuPatch
+[Info   :DrakiaXYZ-SearchOpenContainers] [SearchOpenContainers] Loaded!
+[Message:   BepInEx] Chainloader startup complete
+[Info   :ModulePatch] Enabled patch AmandsLocalPlayerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsApplyNVGPatch
+[Warning:  HarmonyX] AmandsGraphicsHBAOPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset) instead of void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset).
+[Info   :ModulePatch] Enabled patch AmandsGraphicsHBAOPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsPrismEffectsPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticSightPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsCameraClassPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsmethod_22Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsTacticalComboVisualControllerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsMethod_7Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurHitPatch
+[Info   :ModulePatch] Enabled patch AmandsBattleUIScreenPatch
+[Info   :ModulePatch] Enabled patch AmandsEffectsControllerPatch
+[Info   :ModulePatch] Enabled patch QuickTransferPatch
+[Info   :ModulePatch] Enabled patch OverrideHealingTimePatch
+[Info   :CactusPie.FastSearch] Search time reduction
+[Info   :ModulePatch] Enabled patch SearchTimePatch
+[Info   :ModulePatch] Enabled patch SearchInitialDelayPatch
+[Info   :ModulePatch] Enabled patch AutoUncoverPatch
+[Warning:  HarmonyX] GetProducedItemsPatch`1: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.Hideout.ProduceViewBase<GClass1785, GClass1790>::GetProducedItems() instead of void EFT.Hideout.ProduceViewBase<GClass1785, GClass1790>::GetProducedItems().
+[Info   :ModulePatch] Enabled patch GetProducedItemsPatch`1
+[Warning:  HarmonyX] GetProducedItemsPatch`1: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.Hideout.ProduceViewBase<GClass1784, GClass1790>::GetProducedItems() instead of void EFT.Hideout.ProduceViewBase<GClass1784, GClass1790>::GetProducedItems().
+[Info   :ModulePatch] Enabled patch GetProducedItemsPatch`1
+[Warning:  HarmonyX] GetProducedItemsPatch`1: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.Hideout.ProduceViewBase<GClass1782, GClass1790>::GetProducedItems() instead of void EFT.Hideout.ProduceViewBase<GClass1782, GClass1790>::GetProducedItems().
+[Info   :ModulePatch] Enabled patch GetProducedItemsPatch`1
+[Warning:  HarmonyX] GetProducedItemsPatch`1: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.Hideout.ProduceViewBase<GClass1786, GClass1791>::GetProducedItems() instead of void EFT.Hideout.ProduceViewBase<GClass1786, GClass1791>::GetProducedItems().
+[Info   :ModulePatch] Enabled patch GetProducedItemsPatch`1
+[Info   :ModulePatch] Enabled patch ConfirmPurchasePatch
+[Info   :ModulePatch] Enabled patch ConfirmSellPatch
+[Info   :ModulePatch] Enabled patch GameStartPatch
+[Info   :ModulePatch] Enabled patch ItemCountPatch
+[Info   :ModulePatch] Enabled patch InventoryShowPatch
+[Info   :ModulePatch] Enabled patch BushPatch
+[Info   :ModulePatch] Enabled patch PunisherVoicePatch
+[Info   :ArmBandCore] ArmBandCore v370.0.1 is loading...
+[Info   :ArmBandCore] ArmBandCore v370.0.1 has loaded!
+[Message:EFTVersion] GameVersion:0.13.5.26535 AkiVersion:3.7.6
+[Info   :ModulePatch] Enabled patch TriggerWithIdPatchs
+[Info   :ModulePatch] Enabled patch CursorLockStatePatch
+[Info   :ModulePatch] Enabled patch CursorVisiblePatch
+[Message: ModVerify] AmandsGraphics Version:1.5.3 CRC32:A0AE7345
+[Message: ModVerify] ConfigurationManager Version:18.0.1 CRC32:923AEE97
+[Message: ModVerify] BorkelRNVG Version:1.4.5 CRC32:F219F8AF
+[Message: ModVerify] CactusPie.ContainerQuickLoot Version:1.4.1 CRC32:5A4D6132
+[Message: ModVerify] CactusPie.FastHealing Version:1.0.0 CRC32:99A674D5
+[Message: ModVerify] CactusPie.FastSearch Version:1.1.0 CRC32:B26BF31A
+[Message: ModVerify] CactusPie.ItemCountInName Version:1.0.0 CRC32:11D68946
+[Message: ModVerify] CactusPie.RamCleanerInterval Version:1.0.0 CRC32:2D8751
+[Message: ModVerify] DrakiaXYZ-Waypoints Version:1.3.4 CRC32:B0365862
+[Message: ModVerify] aki-core Version:3.7.6 CRC32:A81099FC
+[Message: ModVerify] DrakiaXYZ-BigBrain Version:0.3.2.0 CRC32:DE14D123
+[Message: ModVerify] SPTQuestingBots Version:0.3.5 CRC32:9C7CC32
+[Message: ModVerify] SkillsExtended Version:0.3.3 CRC32:3A0FD62A
+[Message: ModVerify] dvize.BackdoorBandit Version:1.7.2 CRC32:2F9897A1
+[Message: ModVerify] dvize.BushNoESP Version:1.7.2 CRC32:A7D32EB4
+[Message: ModVerify] SAIN Version:2.1.8 CRC32:256794C2
+[Message: ModVerify] dvize.Donuts Version:1.3.5 CRC32:99411AC5
+[Message: ModVerify] FuckYouBeta Version:1.2.1 CRC32:486EC7A7
+[Message: ModVerify] Gaylatea-UseLooseLoot Version:1.1.2 CRC32:D0B59398
+[Message: ModVerify] PunisherVoicePatch Version:0.6.9 CRC32:15CCD59E
+[Message: ModVerify] PunisherBossMod Version:0.6.9 CRC32:D3049330
+[Message: ModVerify] ArmBandCore Version:370.0.1 CRC32:C9635C11
+[Message: ModVerify] Kaeno-TraderScrolling Version:1.0.2 CRC32:37B82B09
+[Message: ModVerify] EFTReflection Version:1.1.8 CRC32:2DD4D21B
+[Message: ModVerify] EFTApi Version:1.1.8 CRC32:78B1C2C2
+[Message: ModVerify] EFTConfiguration Version:1.1.8 CRC32:B37B2955
+[Message: ModVerify] EFTUtils Version:1.1.8 CRC32:7D99FFFB
+[Message: ModVerify] Wara-ModdingStatsHelper Version:1.0 CRC32:5B6751A7
+[Message: ModVerify] RaiRai.ColorConverterAPI Version:1.0.0 CRC32:C3CF31F9
+[Message: ModVerify] aki-custom Version:3.7.6 CRC32:7CEC706C
+[Message: ModVerify] aki-debugging Version:3.7.6 CRC32:8BC0ED
+[Message: ModVerify] aki-singleplayer Version:3.7.6 CRC32:275D36FE
+[Message: ModVerify] Terkoiz.FlareEventNotifier Version:1.0.0 CRC32:8824489C
+[Message: ModVerify] thelpb-quicktime Version:1.0 CRC32:344965E3
+[Message: ModVerify] TYR_DeClutterer Version:1.1.5 CRC32:7C87F5E7
+[Message: ModVerify] RaidOverhaul Version:1.5.0 CRC32:4476E3F6
+[Message: ModVerify] FOVFix Version:1.0.0 CRC32:F9661640
+[Message: ModVerify] LootValue Version:1.2.3 CRC32:416E1E69
+[Message: ModVerify] BossNotifier Version:1.1.0 CRC32:3554B18E
+[Message: ModVerify] DeadzoneMod Version:1.0.0.0 CRC32:7C01F4CD
+[Message: ModVerify] ModdingQOL Version:1.0.0 CRC32:728216AF
+[Message: ModVerify] RealismMod Version:0.14.11 CRC32:5D18FF27
+[Message: ModVerify] MoreCheckmarks Version:1.5.9 CRC32:9D31E7EC
+[Message: ModVerify] DrakiaXYZ-EquipFromWeaponRack Version:1.0.1 CRC32:87A48DE3
+[Message: ModVerify] DrakiaXYZ-QuestTracker Version:1.1.0 CRC32:F1E24893
+[Message: ModVerify] DrakiaXYZ-SearchOpenContainers Version:1.0.2 CRC32:5946AEF6
+[Info   :ModulePatch] Enabled patch FlareEventHookPatch
+[Info   :MoreCheckmarks] MoreCheckmarks Started
+[Info   :MoreCheckmarks] Configs loaded
+[Info   :MoreCheckmarks] Assets loaded
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] 	Items
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/MoreCheckmarksRoutes/items
+[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] Request was successful
+[Warning:EFTConfiguration] BindWeb:https://hub.sp-tarkov.com/files/file/1215-eft-api HtmlDocument throw Object reference not set to an instance of an object
+[Warning:EFTConfiguration] BindWeb:https://hub.sp-tarkov.com/files/file/1215-eft-api HtmlDocument throw Object reference not set to an instance of an object
+[Warning:EFTConfiguration] BindWeb:https://hub.sp-tarkov.com/files/file/1215-eft-api HtmlDocument throw Object reference not set to an instance of an object
+[Warning:EFTConfiguration] BindWeb:https://hub.sp-tarkov.com/files/file/1215-eft-api HtmlDocument throw Object reference not set to an instance of an object
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/singleplayer/settings/version
+[Info   :RequestHandler] Request was successful
+[Info   :ModulePatch] Server version: SPT-AKI 3.7.6
+[Info   :ModDetection] [.CheckPlugins.Update]: [SAIN: Realism Detected.]
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] Request GET json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/singleplayer/log
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/singleplayer/log
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: a6eca924dfe7da151de7fffd:http://127.0.0.1:6969/player/health/sync
+[Info   :RequestHandler] Request was successful
